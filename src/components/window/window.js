@@ -20,11 +20,15 @@ const WindowPopover = (props) => {
         </WindowHeader>
         <WindowContent>
             {
-                activeIcon?.body.map((section) => (
-                    <p>
-                        {section}
-                    </p>
-                ))
+                activeIcon?.body.map((section) => {
+                    if (section[0] === '@') {
+                        return  <a target="_blank" href={'https://twitter.com/' + section.slice(1)}>{section}</a>
+                    } else {
+                        return <p>
+                            {section}
+                        </p>
+                    }
+                })
             }
         </WindowContent>
     </Window>

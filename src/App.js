@@ -16,7 +16,6 @@ const App = () => {
         if (icon === {}) activeIcon({})
 
         const selectedIcon = info.find((element) => element.title === icon);
-        console.log('selectedIcon:', selectedIcon)
         setActiveIcon(selectedIcon)
 
         return;

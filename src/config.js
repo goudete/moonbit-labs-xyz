@@ -13,10 +13,15 @@ const info = [
         title: 'Founding Team',
         body: [
             "Joachim - Project Manager",
+            "@xWEBWEBWEB",
             "ManOnTheMoon - Marketing Director",
+            "@Manonthemoon069",
             "DuckInTheBlock - Legal Director",
+            "@DuckInTheBlock",
             "Chainbum - Developer",
+            "@_chainbum_",
             "Mr. ATOm - Creative Director",
+            "@MrATOm_eth",
         ]
     },
     {
