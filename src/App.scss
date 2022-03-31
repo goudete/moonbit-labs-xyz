@@ -1,0 +1,64 @@
+
+@font-face {
+    font-family: 'ms_sans_serif';
+    src: url('../node_modules/react95/dist/fonts/ms_sans_serif.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'ms_sans_serif';
+    src: url('../node_modules/react95/dist/fonts/ms_sans_serif_bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 100vh;
+    font-family: ms_sans_serif;
+
+    &__header {
+        height: 5%;
+        width: 100%;
+        background-color: #F5F5F5;
+        border-radius: 2px;
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        height: 70%;
+        width: 100%;
+        border-radius: 10px;
+        margin: auto;
+
+        &-icons {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-width: 50%;
+
+            &__icon {
+                cursor: pointer;
+                margin: 2em;
+                img {
+                    max-width: 60px;
+                }
+
+                &-text {
+                    font-size: large;
+                    margin-top: 0.5em;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    &__footer {
+        height: 10%;
+        width: 100%;
+    }
+}
