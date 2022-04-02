@@ -19,7 +19,6 @@ const WindowPopover = (props) => {
                 height: 'auto',
                 maxWidth: '100%',
                 margin: '0 auto',
-                overflowY: 'auto'
             }}
         >
         <WindowHeader
