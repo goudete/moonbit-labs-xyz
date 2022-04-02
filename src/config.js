@@ -1,7 +1,13 @@
 
 const iconMetadata = [
     {
-        title: 'Moonbit Labs',
+        title: 'Logo',
+        body:[
+            "logo.png"
+        ]
+    },
+    {
+        title: 'About',
         body:[
             "Moonbit Labs is a company specialized in the development of Web3 projects",
             "We are a group of enthusiasts and believers in the crypto universe that seek to advise and achieve an effective integration of people, businesses and brands into this new technological revolution (Web3, Blockchain).",            

@@ -16,12 +16,13 @@ const WindowPopover = (props) => {
             className='window'
             style={{
                 width: '50em',
+                height: 'auto',
                 maxWidth: '100%',
                 margin: '0 auto',
                 overflowY: 'auto'
             }}
         >
-        <WindowHeader 
+        <WindowHeader
             style={{position: 'relative'}}
             className='window-header'
         >
@@ -35,6 +36,8 @@ const WindowPopover = (props) => {
                 activeIcon?.body.map((section) => {
                     if (section[0] === '@') {
                         return <a target="_blank" href={'https://twitter.com/' + section.slice(1)}>{section}</a>
+                    } else if (section.includes('png')) {
+                        return <img src={require(`../../static/${section}`)} alt='img' />
                     } else {
                         return <p>{section}</p>
                     }

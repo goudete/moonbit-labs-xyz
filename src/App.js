@@ -29,7 +29,11 @@ const App = () => {
                 </div>
                 <div className='container__body'>
                     <div className='container__body-icons'>
-                        <div className='container__body-icons__icon' onClick={() => onIconClick('Moonbit Labs')}>
+                        <div className='container__body-icons__icon' onClick={() => onIconClick('Logo')}>
+                            <img src={require('./static/buzz.gif')} alt='planet' />
+                            <div className='container__body-icons__icon-text'>Logo</div>
+                        </div>
+                        <div className='container__body-icons__icon' onClick={() => onIconClick('About')}>
                             <img src={require('./static/planet.gif')} alt='planet' />
                             <div className='container__body-icons__icon-text'>About</div>
                         </div>
