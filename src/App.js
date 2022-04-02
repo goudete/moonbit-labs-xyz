@@ -5,7 +5,7 @@ import original from "react95/dist/themes/original";
 import Window from './components/window/window';
 import NavBar from './components/navbar/navbar';
 
-import { info } from './config';
+import { iconMetadata } from './config';
 
 import './App.scss';
 
@@ -15,7 +15,7 @@ const App = () => {
     const onIconClick = (icon) => {
         if (icon === {}) activeIcon({})
 
-        const selectedIcon = info.find((element) => element.title === icon);
+        const selectedIcon = iconMetadata.find((element) => element.title === icon);
         setActiveIcon(selectedIcon)
 
         return;
@@ -44,6 +44,10 @@ const App = () => {
                         <div className='container__body-icons__icon' onClick={() => onIconClick('Projects')}>
                             <img src={require('./static/cactus.png')} alt='planet' />
                             <div className='container__body-icons__icon-text'>Projects</div>
+                        </div>
+                        <div className='container__body-icons__icon' onClick={() => onIconClick('Terms and Conditions')}>
+                            <img src={require('./static/bin.png')} alt='planet' />
+                            <div className='container__body-icons__icon-text'>Legal stuff</div>
                         </div>
                     </div>
                     {

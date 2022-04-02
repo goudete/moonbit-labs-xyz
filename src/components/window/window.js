@@ -11,8 +11,20 @@ import {
 const WindowPopover = (props) => {
     const { activeIcon, onIconClick } = props;
 
-    return <Window resizable className='window' style={{width: '50em', maxWidth: '100%', margin: '0 auto'}}>
-        <WindowHeader style={{position: 'relative'}}className='window-header'>
+    return <Window
+            resizable
+            className='window'
+            style={{
+                width: '50em',
+                maxWidth: '100%',
+                margin: '0 auto',
+                overflowY: 'auto'
+            }}
+        >
+        <WindowHeader 
+            style={{position: 'relative'}}
+            className='window-header'
+        >
             <span>{activeIcon?.title}</span>
             <Button style={{position: 'absolute', right: '10px'}} onClick={() => onIconClick({})}>
                 <span>X</span>
@@ -22,11 +34,9 @@ const WindowPopover = (props) => {
             {
                 activeIcon?.body.map((section) => {
                     if (section[0] === '@') {
-                        return  <a target="_blank" href={'https://twitter.com/' + section.slice(1)}>{section}</a>
+                        return <a target="_blank" href={'https://twitter.com/' + section.slice(1)}>{section}</a>
                     } else {
-                        return <p>
-                            {section}
-                        </p>
+                        return <p>{section}</p>
                     }
                 })
             }
