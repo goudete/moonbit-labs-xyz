@@ -36,7 +36,16 @@ const WindowPopover = (props) => {
                     if (section[0] === '@') {
                         return <a target="_blank" href={'https://twitter.com/' + section.slice(1)}>{section}</a>
                     } else if (section.includes('png')) {
-                        return <img src={require(`../../static/${section}`)} alt='img' />
+                        return <div style={{textAlign: 'center'}}>
+                            <img
+                                src={require(`../../static/${section}`)}
+                                alt='img'
+                                style={{
+                                    width: '30em',
+                                    maxWidth: '100%',
+                                }}
+                            />
+                        </div>
                     } else {
                         return <p>{section}</p>
                     }
