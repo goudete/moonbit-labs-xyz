@@ -9,11 +9,17 @@ import {
 
 const NavBar = () => {
 
+    const onButtonClick = () => {
+        console.log('CLICKED')
+        return window.open('https://twitter.com/moonbitlabs', "_blank");
+    }
+
     return <AppBar>
         <Toolbar style={{ justifyContent: 'space-between' }}>
         <div style={{ position: 'relative', display: 'inline-block' }}>
             <Button
             style={{ fontWeight: 'bold' }}
+            onClick={() => onButtonClick()}
             >
             <img
                 src={require('../../static/computer.png')}

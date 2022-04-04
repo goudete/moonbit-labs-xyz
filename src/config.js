@@ -44,7 +44,8 @@ const iconMetadata = [
     {
         title: 'Projects',
         body: [
-            "WebTimeFolks"
+            "WebTimeFolks",
+            "@WebTimeFolks"
         ]
     },
     {

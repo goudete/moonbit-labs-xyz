@@ -16,9 +16,15 @@ const WindowPopover = (props) => {
             className='window'
             style={{
                 width: '50em',
-                height: 'auto',
+                height: '25em',
                 maxWidth: '100%',
-                margin: '0 auto',
+                margin: 'auto',
+                position: 'absolute',
+                top: '0',
+                bottom: '0',
+                left: '0',
+                right: '0',
+                overflowY: 'auto'
             }}
         >
         <WindowHeader
