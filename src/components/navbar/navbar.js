@@ -10,7 +10,6 @@ import {
 const NavBar = () => {
 
     const onButtonClick = () => {
-        console.log('CLICKED')
         return window.open('https://twitter.com/moonbitlabs', "_blank");
     }
 

@@ -10,9 +10,10 @@ const iconMetadata = [
         title: 'About',
         body:[
             "Moonbit Labs is a company specialized in the development of Web3 projects",
-            "We are a group of enthusiasts and believers in the crypto universe that seek to advise and achieve an effective integration of people, businesses and brands into this new technological revolution (Web3, Blockchain).",            
-            "The market in which we operate is relatively new, which allows us to identify business opportunities and unique digital solutions to generate or increase value in different traditional sectors.",
-            "Our goal: to capitalize from the growing adoption using advanced knowledge in blockchain technology in all its areas (programming, legal, administration, social, marketing, among others)."
+            "We are a group of enthusiasts and believers in the crypto universe that seek to advise and create onramps for people, businesses and brands into the blockchain.",
+            "We are a full service shop that handles the development, marketing, creative and legal requirements to build out a successful web3 project.",
+            "Dive in, the waters warm.",
+            "Have a question? Chat with us at hello@moonbitlabs.xyz"
         ]
     },
     {
@@ -33,12 +34,12 @@ const iconMetadata = [
     {
         title: 'Services',
         body: [
-            "Advise and consulting for the integration of projects, brands and businesses to Blockchain technology, Web3 and Decentralized Autonomous Organizations (DAO)",
-            "Implementation of Non-Fungible Tokens (NFT's), Smart Contracts and the necessary technology for the operations of businesses and individuals in different traditional sectors",
-            "Community management, marketing, advertising and branding in the Crypto universe",
+            "Advise and consulting for the integration of projects, brands and businesses to Blockchain technology",
+            "Implementation of Smart Contracts, including Non-Fungible Tokens (NFTs) and Fungible Tokens",
+            "Community management, marketing and branding tailored to web3",
             "Training in cyber security",
-            "Crypto-asset investment management including, among others, decentralized finance (DeFi), mining, trading and staking",
-            "Our mission is to provide the best service for our clients, communities and projects. Therefore, we take care of every aspect of our services and focus on onboarding users into this new technology"
+            "Crypto-asset investment management including, among others, decentralized finance (DeFi), mining, trading and staking.",
+            "Interested? Chat with us at hello@moonbitlabs.xyz"
         ]
     },
     {
