@@ -45,10 +45,10 @@ const App = () => {
                             <img src={require('./static/doc.png')} alt='planet' />
                             <div className='container__body-icons__icon-text'>Services</div>
                         </div>
-                        <div className='container__body-icons__icon' onClick={() => onIconClick('Projects')}>
+                        {/* <div className='container__body-icons__icon' onClick={() => onIconClick('Projects')}>
                             <img src={require('./static/cactus.png')} alt='planet' />
                             <div className='container__body-icons__icon-text'>Projects</div>
-                        </div>
+                        </div> */}
                         <div className='container__body-icons__icon' onClick={() => onIconClick('Terms and Conditions')}>
                             <img src={require('./static/bin.png')} alt='planet' />
                             <div className='container__body-icons__icon-text'>Legal stuff</div>
