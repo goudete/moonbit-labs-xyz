@@ -49,6 +49,10 @@ const App = () => {
                             <img src={require('./static/cactus.png')} alt='planet' />
                             <div className='container__body-icons__icon-text'>Projects</div>
                         </div> */}
+                        <div className='container__body-icons__icon' onClick={() => onIconClick('Contact Us')}>
+                            <img src={require('./static/contact.png')} style={{ height: '60px', width: '65px'}} alt='planet' />
+                            <div className='container__body-icons__icon-text'>Contact Us</div>
+                        </div>
                         <div className='container__body-icons__icon' onClick={() => onIconClick('Terms and Conditions')}>
                             <img src={require('./static/bin.png')} alt='planet' />
                             <div className='container__body-icons__icon-text'>Legal stuff</div>

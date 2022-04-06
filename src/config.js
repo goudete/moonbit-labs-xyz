@@ -43,6 +43,15 @@ const iconMetadata = [
         ]
     },
     {
+        title: 'Contact Us',
+        body: [
+            "Twitter",
+            "@moonbitlabs",
+            "Email",
+            "hello@moonbitlabs.xyz"
+        ]
+    },
+    {
         title: 'Projects',
         body: [
             "WebTimeFolks",
