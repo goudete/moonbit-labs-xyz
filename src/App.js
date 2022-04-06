@@ -38,11 +38,11 @@ const App = () => {
                             <div className='container__body-icons__icon-text'>About</div>
                         </div>
                         <div className='container__body-icons__icon' onClick={() => onIconClick('Founding Team')}>
-                            <img src={require('./static/palm.png')} alt='planet' />
+                            <img src={require('./static/team.png')} alt='planet' />
                             <div className='container__body-icons__icon-text'>Team</div>
                         </div>
                         <div className='container__body-icons__icon' onClick={() => onIconClick('Services')}>
-                            <img src={require('./static/doc.png')} alt='planet' />
+                            <img src={require('./static/services.png')} alt='planet' />
                             <div className='container__body-icons__icon-text'>Services</div>
                         </div>
                         {/* <div className='container__body-icons__icon' onClick={() => onIconClick('Projects')}>
