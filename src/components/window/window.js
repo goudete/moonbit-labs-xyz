@@ -40,7 +40,11 @@ const WindowPopover = (props) => {
             {
                 activeIcon?.body.map((section) => {
                     if (section[0] === '@') {
-                        return <a target="_blank" href={'https://twitter.com/' + section.slice(1)}>{section}</a>
+                        return <div>
+                             <img src={require('../../static/twitter.png')} style={{ maxWidth: '20px', marginRight: '5px'}} alt='twitter' />
+                            <a target="_blank" href={'https://twitter.com/' + section.slice(1)}>{section}</a>
+                        </div>
+                        
                     } else if (section.includes('png')) {
                         return <div style={{textAlign: 'center'}}>
                             <img

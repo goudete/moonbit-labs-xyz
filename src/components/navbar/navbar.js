@@ -21,7 +21,7 @@ const NavBar = () => {
             onClick={() => onButtonClick()}
             >
             <img
-                src={require('../../static/logo90x88.png')}
+                src={require('../../static/logoDisk.png')}
                 alt='react95 logo'
                 style={{ height: '20px', marginRight: 4 }}
             />

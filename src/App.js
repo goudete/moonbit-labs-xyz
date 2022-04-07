@@ -54,8 +54,8 @@ const App = () => {
                             <div className='container__body-icons__icon-text'>Contact Us</div>
                         </div>
                         <div className='container__body-icons__icon' onClick={() => onIconClick('Terms and Conditions')}>
-                            <img src={require('./static/bin.png')} alt='planet' />
-                            <div className='container__body-icons__icon-text'>Legal stuff</div>
+                            <img src={require('./static/legal.png')} alt='planet' />
+                            <div className='container__body-icons__icon-text'>Legal</div>
                         </div>
                     </div>
                     {
@@ -66,7 +66,11 @@ const App = () => {
                             />
                     }
                 </div>
-                <div className='container__footer'></div>
+                <div className='container__footer'>
+                    <div className='container__footer-bottomContent'>
+                        <img src={require('./static/trash.png')} alt='planet' />
+                    </div>
+                </div>
             </div>
         </ThemeProvider>
     );

@@ -14,11 +14,13 @@
 }
 
 .container {
+    cursor: url('./static/cursor.png'), auto;
     display: flex;
     flex-direction: column;
     margin: auto;
     height: 100vh;
     font-family: ms_sans_serif;
+    
 
     &__header {
         height: 5%;
@@ -52,10 +54,17 @@
                     font-size: large;
                     margin-top: 0.5em;
                     color: white;
+                    text-align: center;
                 }
             }
         }
     }
 
-    // &__footer {}
+    &__footer {
+        &-bottomContent {
+            float: right;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    }
 }
