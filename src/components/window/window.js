@@ -36,7 +36,12 @@ const WindowPopover = (props) => {
                 <span>X</span>
             </Button>
         </WindowHeader>
-        <WindowContent>
+        <WindowContent
+            style={{
+                display: 'flex',
+                flexDirection: activeIcon.title === 'Legal' ? 'row' : 'column'
+            }}
+        >
             {
                 activeIcon?.body.map((section) => {
                     if (section.type === 'twitter') {
@@ -51,7 +56,7 @@ const WindowPopover = (props) => {
                                 src={require(`../../static/${section.content}`)}
                                 alt='img'
                                 style={{
-                                    width: '30em',
+                                    width: '17em',
                                     maxWidth: '100%',
                                 }}
                             />

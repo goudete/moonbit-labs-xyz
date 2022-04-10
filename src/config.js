@@ -30,7 +30,7 @@ const iconMetadata = [
             },
             {
                 type: 'text',
-                content: "Dive in, the waters warm."
+                content: "Dive in, the water's warm."
             },
             {
                 type: 'text',
