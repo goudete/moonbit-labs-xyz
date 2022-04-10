@@ -155,15 +155,8 @@ const iconMetadata = [
             },
             {
                 type: 'icon',
-                content: "Privacy Notice"
+                content: "Privacy Policy"
             }
-        ]
-    },
-    {
-        title: 'Legal',
-        body: [
-            "icon - Terms and Conditions",
-            "icon - Privacy Notice"
         ]
     },
     {
@@ -360,20 +353,362 @@ const iconMetadata = [
         ]
     },
     {
-        title: 'Privacy Notice',
+        title: 'Privacy Policy',
         body: [
             {
                 type: 'text',
-                content: "Your data is being harvested. lol."
+                content: "Last update: April 2022"
+            },
+            {
+                type: 'text',
+                content: "This Privacy Policy (“Privacy Policy”) is made to help you (“You”) understand how Moonbit Labs, S.A. de C.V. (“Moonbit Labs”, “We”, “Us” and “Our”) collects, uses, and shares your personal information as well as your exercise to your privacy rights."
+            },
+            {
+                type: 'text',
+                content: "Section 1. Scope. This Privacy Policy applies to personal information processed by Us, through our websites, mobile applications and any other services or interfaces owned or controlled by Moonbit Labs (each a “Service” and collectively “Services”). For the avoidance of doubt, Moonbit Labs does not control de blockchain protocol (“Protocol”) on which our Services, our fungible tokens and/or non-fungible tokens (“NFTs”) are tradable or usable and cannot control activity and data on the Protocol, the validation of transactions through the Protocol or the use of the Protocol."
+            },
+            {
+                type: 'text',
+                content: "Section 2. Changes to Our Privacy Policy. We may revise this Privacy Policy from time to time at Our sole discretion. If there are any material changes to this Privacy Policy, We will notify you as required by applicable law. You understand and agree that You will be deemed to have accepted the up-to-date Privacy Policy if you continue to use any of our Services, after any change is made to this Privacy Policy and takes effect."
+            },
+            {
+                type: 'text',
+                content: "Section 3. Personal Information We Collect. The categories of personal information we collect depends on how you interact with Moonbit Labs, our Services and the requirements of the applicable law. We collect information that you provide Us, information we obtain automatically when You use our Services, and information from other sources such as third-party services and organization, described below."
+            },
+            {
+                type: 'text',
+                content: "3.1. Information You Provide to Us Directly."
+            },
+            {
+                type: 'text',
+                content: "We may collect the following personal information that you provide to Us:"
+            },
+            {
+                type: 'text',
+                content: "3.1.1. Account Creation. We may collect information when you create an account whit Us or our Service providers, such as name and email address. We may also require You provide additional identity and verification information."
+            },
+            {
+                type: 'text',
+                content: "3.1.2. Purchases, Wallet and Transactions. To engage in certain transactions or purchases on the Services, you may need to provide Us or our third-party payment processors with your payment information and allow Us to connect to your digital wallet by providing us with your public wallet address. We will never ask you or collect your private keys. We do not directly collect or store any payment card information entered through Our Services or access your digital wallet, but We may receive from our third-party payment processing providers the information associated with your payment card (e.g. billing details)."
+            },
+            {
+                type: 'text',
+                content: "3.1.3. Other Transactions. We may collect personal information and details associated with your activities on our Services."
+            },
+            {
+                type: 'text',
+                content: "3.1.4. Your Communication With Us. We may collect personal information, such as email address, phone number or mailing address when you request information about our Services, register for our newsletter, apply for a job or otherwise communicate with us."
+            },
+            {
+                type: 'text',
+                content: "3.1.5. Interactive Features. We and others who use our Services may collect personal information that You submit or make available through our interactive features (e.g. through any of Moonbit Labs' social media, messaging chat features, and communities such as discord). Any personal information You provide on the public sections of these features will be considered “public” information (“User Content”), unless otherwise required by applicable law, and it will not be subject to the privacy protections referenced herein. Please be cautious before revealing publicly any information that may identify you in the real/tangible world to other users."
+            },
+            {
+                type: 'text',
+                content: "3.1.6. Surveys. We may contact You to participate in surveys. If You decide to participate, You may be asked to provide certain information which may include personal information."
+            },
+            {
+                type: 'text',
+                content: "3.1.7. Sweepstakes, Giveaways or Contests. We may collect personal information you provide for any sweepstakes, giveaways or contest that We may offer. In some jurisdictions We are required by law to publicly share information of sweepstakes or contests winners."
+            },
+            {
+                type: 'text',
+                content: "3.1.8. Conferences, Trade Shows and Other Events. We may collect personal information from You when Moonbit Labs and/or You attend or host any conference, trade shows, and any other event."
+            },
+            {
+                type: 'text',
+                content: "3.1.9. Business Development and Strategic Partnership. We may collect personal information from individuals and third-parties to assess and pursue potential business partnerships and/or opportunities."
+            },
+            {
+                type: 'text',
+                content: "3.2. Information Collected Automatically."
+            },
+            {
+                type: 'text',
+                content: "We may collect personal information automatically when you use our Services, such as:"
+            },
+            {
+                type: 'text',
+                content: "3.2.1. Automatic Data Collection. We may collect certain information automatically when You use our Services, such as your Internet protocol (IP) address, user settings, MAC address, cookie identifiers, mobile carrier and other unique identifiers, browser or device information, location information (including approximate location derived from IP address), Internet service provider, and metadata about the content You provide. We may also automatically collect information regarding your use of our Services, such as pages that You visit before, during and after using our Services, information about the links You click, the types of content You interact with, the frequency and duration of your activities, and other information about how you use our Services."
+            },
+            {
+                type: 'text',
+                content: "3.2.2. Cookie Policy for Cookies and Other Technologies. We, as well as third parties that provide content or other functionality on our Services, may use cookies, local storage, and other technologies (“Technologies”) to automatically collect information through your use of our Services."
+            },
+            {
+                type: 'text',
+                content: "3.2.3. Cookies. Cookies are small text files placed in device browsers that store preferences and facilitate ant enhance your experience."
+            },
+            {
+                type: 'text',
+                content: "Our uses of these Technologies fall into the following general categories:"
+            },
+            {
+                type: 'text',
+                content: "3.2.3.1. Operationally Necessary. This includes Technologies that allow You access to Our Services, applications, and tools that are required to identify irregular website behavior, prevent fraudulent activity, improve security, or allow You to make use of Our functionality."
+            },
+            {
+                type: 'text',
+                content: "3.2.3.2. Performance-Related. We may use Technologies to assess the performance of our Services, including as part of Our analytic practices to help Us understand how individuals use Our Services (see Analytics below)."
+            },
+            {
+                type: 'text',
+                content: "3.2.3.3. Functionality-Related. We may use Technologies that allow Us to offer You enhanced functionality when accessing or using Our Services. This may include identifying You when You sign into Our Services or keeping track of your specified preferences, interests, or past items viewed."
+            },
+            {
+                type: 'text',
+                content: "See “Your Privacy Choices and Rights” below to understand your choices regarding these Technologies."
+            },
+            {
+                type: 'text',
+                content: "3.2.3.4. Analytics. We may use Our Technologies and other third-party tools to process analytics information on Our Services. These Technologies allow Us to process usage data to better understand how Our Services are used, and to continually improve and personalize Our Services. Some of Our analytics partners include:"
+            },
+            {
+                type: 'text',
+                content: "Google Analytics. For more information about how Google uses your data and how to opt-out the use of your information (including for its own purposes, e.g. for profiling or linking to other data), please visit Google Analytics' Privacy Policy."
+            },
+            {
+                type: 'text',
+                content: "Social Media Platforms. Our Services may contain social media buttons, such as Twitter, Telegram, Discord, Instagram and Snapchat, which might include widgets such as the “share this” button or other interactive mini programs. These features may collect your IP address and which page You are visiting on Our Services and may set a cookie to enable the feature to function properly. Your interactions with these platforms are governed by the privacy policy of the company providing it, make sure you identify them."
+            },
+            {
+                type: 'text',
+                content: "3.3. Information Collected from Other Sources."
+            },
+            {
+                type: 'text',
+                content: "3.3.1. Third-Party Sources. We may obtain information about You from other sources, including through third-party services and organizations. For example, if You access Our Services through a third-party application, such as an app store or marketplace, a third-party login services, or a social networking site, We may collect information about You from those services that You have made available via your privacy settings."
+            },
+            {
+                type: 'text',
+                content: "3.3.2. Sharing Features. Our Services may offer various tools and functionalities that allow You to provide information about your friends; third parties may also use these services to upload information about You. Our Services may also allow You to forward or share certain content with a friend or colleague, such as an email invitation to use Our Services. Please only share with us contact information of people with whom you have a relationship (e.g. relatives, friends, neighbors, co-workers, partners, etc.)."
+            },
+            {
+                type: 'text',
+                content: "Section 4. How We Use Your Information. We use your information for a variety of business purposes, including to provide our Services, administrative purposes, and to market Our product and/or Services, as described below."
+            },
+            {
+                type: 'text',
+                content: "4.1. Provide Our Services. We use your information to fulfill Our contract with You and to provide Our Services and perform Our contract, such as:"
+            },
+            {
+                type: 'text',
+                content: "4.1.1. Managing your information;"
+            },
+            {
+                type: 'text',
+                content: "4.1.2. Providing access to certain areas, functionalities, and features of Our Services;"
+            },
+            {
+                type: 'text',
+                content: "4.1.3. Answering requests for customer, feedback or technical support;"
+            },
+            {
+                type: 'text',
+                content: "4.1.4. Communicating with You about your account, activities on Our Services, and policy or terms changes;"
+            },
+            {
+                type: 'text',
+                content: "4.1.5. Processing your financial information and other payment methods to facilitate purchases and transfers via the Services; and"
+            },
+            {
+                type: 'text',
+                content: "4.1.6. Allowing you to register for events."
+            },
+            {
+                type: 'text',
+                content: "4.2. Administrative Purposes. We use your information for Our legitimate interest, such as:"
+            },
+            {
+                type: 'text',
+                content: "4.2.1. Pursuing our legitimate interests such as direct marketing, research and development (including marketing research), network and information security, and fraud prevention;"
+            },
+            {
+                type: 'text',
+                content: "4.2.2. Detecting security incidents, protecting against malicious, deceptive, fraudulent or illegal activity, and prosecuting those responsible for those actions;"
+            },
+            {
+                type: 'text',
+                content: "4.2.3. Measuring interests and engagements in Our Services;"
+            },
+            {
+                type: 'text',
+                content: "4.2.4. Developing new products and Services;"
+            },
+            {
+                type: 'text',
+                content: "4.2.5. Ensuring internal quality control and safety;"
+            },
+            {
+                type: 'text',
+                content: "4.2.6. Debugging to identify and repair errors with Our Services;"
+            },
+            {
+                type: 'text',
+                content: "4.2.7. Authenticating and verifying individual identities;"
+            },
+            {
+                type: 'text',
+                content: "4.2.8. Auditing relating to interactions, transfers and other compliance activities;"
+            },
+            {
+                type: 'text',
+                content: "4.2.9. Sharing information with third parties as needed to provide the Services;"
+            },
+            {
+                type: 'text',
+                content: "4.2.10. Enforcing Our agreements and policies; and"
+            },
+            {
+                type: 'text',
+                content: "4.2.11. Other uses as required to comply with our legal obligations."
+            },
+            {
+                type: 'text',
+                content: "4.3. Marketing Our Products and Services. We may use personal information to tailor and provide You with content. We may provide these materials as permitted by applicable law. Some of the ways we may market to You include email campaigns."
+            },
+            {
+                type: 'text',
+                content: "If you have any questions about Our marketing practices or if You would like to opt out of the use of your personal information for marketing purposes, You may contact us at any time as set forth in “Contact Us” below."
+            },
+            {
+                type: 'text',
+                content: "4.4. With Your Consent. We may use personal information for other purposes that are clearly disclosed to You at the time you provide personal information or with your consent."
+            },
+            {
+                type: 'text',
+                content: "4.5. Other Purposes. We also use your information for other purposes as requested by You or as permitted by applicable law."
+            },
+            {
+                type: 'text',
+                content: "4.5.1. De-Identified and Aggregated Information. We may use personal information and other information about You to create de-identified and/or aggregated information, such as de-identified demographic information, de-identified location information, information about the device from which You access our Services, or other analyses We create."
+            },
+            {
+                type: 'text',
+                content: "Section 5. How We Disclose Your Information. We disclose your information to third parties for a variety of business purposes, including to provide Our Services, to protect Us or others, or in the event of a major business transaction such as a merger, sale, or asset transfer, as described below."
+            },
+            {
+                type: 'text',
+                content: "5.1. Disclosures to Provide Our Services. The categories of third parties with whom We may share your information are:"
+            },
+            {
+                type: 'text',
+                content: "5.1.1. Notice Regarding Use of Blockchain. Transactions involving any NFTs provided by Us will be conducted on the relevant Protocol. Information about your transfers and holdings will be provided to and by the Blockchain and may be accessible to third parties due to the public and transparent nature of the Protocol. As You should know, entries to the Blockchain are public, and because it may be possible for someone to identify You through your pseudonymous, public wallet address using external sources of information, any transaction You enter onto the Blockchain could possibly be used to identify You, or information about You."
+            },
+            {
+                type: 'text',
+                content: "5.1.2. Other Users of the Services and Parties You Transact With. Some of your personal information may be visible to other users of the Services (e.g., information featured on generally accessible parts of the contracts or on a user's profile). In addition, to complete transfers via the Services, We will need to share some of your personal information with the party that You are transacting with."
+            },
+            {
+                type: 'text',
+                content: "5.1.3. Third Party Websites and Applications. You may choose to share personal information or interact with third-party websites and/or third-party applications, including, but not limited to, third-party electronic wallet extensions. Once your personal information has been shared with a third-party's website or application, it will also be subject to such third party's privacy policy. We encourage You to closely read each of those parties' privacy policies before sharing any of your personal information or otherwise interacting with them. Please note that We do not control, and therefore, not responsible for the third-party's website or application processing your personal information."
+            },
+            {
+                type: 'text',
+                content: "5.1.4. Service Providers. We may share your personal information with our third-party service providers who use that information to help Us provide Our Services. This includes service providers that provide Us with IT support, hosting, customer services, and related services."
+            },
+            {
+                type: 'text',
+                content: "5.1.5. Business Partners. We may share your personal information with business partners to provide You with a product or service you have requested. We may also share your personal information to business partners with whom we jointly offer products or services."
+            },
+            {
+                type: 'text',
+                content: "5.1.6. Affiliates. We may share your personal information with members of our corporate family."
+            },
+            {
+                type: 'text',
+                content: "5.1.7. APIs/SDKs. We may use third-party application program interfaces (“APIs”) and software development kits (“SDKs”) as part of the functionality of Our Services. For more information about Our use of APIs and SDKs, please contact Us as set forth in “Contact Us” below."
+            },
+            {
+                type: 'text',
+                content: "5.2. Disclosures to Protect Us or Others. We may access, preserve, and disclose any information We store associated with You to external parties if We, in good faith, believe doing so is required or appropriate to: comply with law enforcement or national security requests and legal process, such as a court order or subpoena; protect your, Our, or others' rights, property, or safety; enforce Our policies, terms or contracts; collect amounts owed to Us; or assist with an investigation or prosecution of suspected or actual illegal activity."
+            },
+            {
+                type: 'text',
+                content: "5.3. Disclosure in the Event of Merger, Sale, or Other Asset Transfers. If We are involved in a merger, acquisition, financing due diligence, reorganization, bankruptcy, receivership, purchase or sales of assets, or transition of service to another provider, your information may be sold or transferred as part of such transaction, as permitted by law and/or contract."
+            },
+            {
+                type: 'text',
+                content: "Section 6. Your Privacy Choices and Rights. The privacy choices You may have about your personal information are determined by applicable law and are described below."
+            },
+            {
+                type: 'text',
+                content: "6.1. Email Communications. If You receive an unwanted email from Us, you can use the unsubscribe link found at the bottom of the email to opt-out of receiving future emails. Note that You will continue to receive transfer-related emails regarding Services you have requested. We may also send You certain non-promotional communications regarding Us and Our Services, and You will not be able to opt-out of those communications (e.g., communications regarding our Services or updates to Our Terms or this Privacy Policy)."
+            },
+            {
+                type: 'text',
+                content: "6.2. “Do Not Track”. Do Not Track (“DNT”) is a privacy preference that users can set in certain web browsers. Please note that We do not respond to or honor DNT signals or similar mechanisms transmitted by web browsers."
+            },
+            {
+                type: 'text',
+                content: "6.3. Cookies. You may stop or restrict the placement of Technologies on your device or remove them by adjusting your preferences as your browser or device permits. However, if You adjust your preferences, Our Services may not work properly. Please note that cookie-based opt-outs are not effective on mobile applications."
+            },
+            {
+                type: 'text',
+                content: "6.4. Your Privacy Rights. In accordance with applicable law, You may have the right to:"
+            },
+            {
+                type: 'text',
+                content: "6.4.1. Access Personal Information about You, including: (i) confirming whether We are processing your personal information; (ii) obtaining access to or a copy of your personal information; or (iii) receiving an electronic copy of personal information that You have provided to Us, or asking Us to send that information to another company (aka the Right of Data Portability);"
+            },
+            {
+                type: 'text',
+                content: "6.4.2. Request Correction of your personal information where it is inaccurate or incomplete. In some cases, We may provide self-service tools that enable You to update your personal information;"
+            },
+            {
+                type: 'text',
+                content: "6.4.3. Request Deletion of your personal information;"
+            },
+            {
+                type: 'text',
+                content: "6.4.4. Request Restriction of or Object to Our processing of your personal information, including where the processing of your personal information is based on our legitimate interest or for direct marketing purposes; and"
+            },
+            {
+                type: 'text',
+                content: "6.4.5. Withdraw Your Consent to Our processing of your personal information. Please note that your withdrawal will only take effect for the future processing and will not affect the lawfulness of processing before the withdrawal."
+            },
+            {
+                type: 'text',
+                content: "If You would like to exercise any of these rights, please contact Us as set forth in “Contact Us” below. We will process such requests in accordance with applicable laws."
+            },
+            {
+                type: 'text',
+                content: "Section 7. Security of Your Information. We take steps designed to ensure that your information is treated securely and in accordance with this Privacy Policy. Unfortunately, no system is 100% secure, and We cannot ensure or warrant the security of any information You provide to Us. To the fullest extent permitted by applicable law, We do not accept liability for unauthorized disclosure."
+            },
+            {
+                type: 'text',
+                content: "By using Our Services or providing personal information to Us, you agree that We may communicate with You electronically regarding security, privacy, and administrative issues relating to your use of Our Services. If We notice a security system's breach, We may attempt to notify You electronically by posting a notice on Our Services, by mail or by sending an email to You."
+            },
+            {
+                type: 'text',
+                content: "Section 8. International Data Transfers. All information processed by Us may be transferred, processed, and stored anywhere in the world, including, but not limited to, the United States, Mexico, or other countries, which may have data protection laws that are different from the laws where You live. We endeavor to safeguard your information consistent with the requirements of applicable laws."
+            },
+            {
+                type: 'text',
+                content: "Section 9. Retention of Personal Information. We store the personal information We collect as described in this Privacy Policy for as long as You use Our Services or as necessary to fulfill the purpose(s) for which it was collected, provide Our Services, resolve disputes, establish legal defenses, conduct audits, pursue legitimate business purposes, enforce Our agreements or contracts, and comply with applicable laws."
+            },
+            {
+                type: 'text',
+                content: "Section 10. Accessibility. This Privacy Policy uses industry-standard technologies and was developed in line with the World Wide Web Consortium's Web Content Accessibility Guidelines, version 2.1."
+            },
+            {
+                type: 'text',
+                content: "Section 11. Children's Information. The Services are not directed to children under 13 (or other age as required by local law), and We do not knowingly collect personal information form children. If you are a parent or guardian and believe your child has provided Us with personal information without your consent, You may contact Us as set forth in “Contact Us” below. If We learn that a child has provided Us with personal information in violation of applicable law, We will promptly take steps to delete such information, unless We have a legal obligation to not do so."
+            },
+            {
+                type: 'text',
+                content: "Section 12. Third-Party Websites/Applications. The Services may contain links to other websites/applications and other websites/applications may reference or link Our Services. These third-party services are not controlled by Us. We encourage You to read the privacy policies of each website and/or application with which You interact. We do not endorse, screen or approve, and are not responsible for, the privacy practices or content of such other websites and/or applications. Providing personal information to third-party websites and/or applications is at your own risk."
+            },
+            {
+                type: 'text',
+                content: "Section 13. Supervisory Authority. If You are located in the European Economic Area, Switzerland, or the United Kingdom, You have the right to lodge a complaint with a supervisory authority if You believe Our processing of your personal information violates applicable law."
+            },
+            {
+                type: 'text',
+                content: "Section 14. Contact Information. If you have any questions about our privacy practices or this Privacy Policy, or to exercise your rights as detailed in this Privacy Policy, please contact Moonbit Labs at hello@moonbitlabs.xyz."
             }
         ]
     },
-    {
-        title: 'Privacy Notice',
-        body: [
-            "Your data is being harvested. lol."
-        ]
-    }
 ];
 
 module.exports = {
