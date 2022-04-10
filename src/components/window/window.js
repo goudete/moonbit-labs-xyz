@@ -42,7 +42,7 @@ const WindowPopover = (props) => {
                     if (section[0] === '@') {
                         return <div>
                              <img src={require('../../static/twitter.png')} style={{ maxWidth: '20px', marginRight: '5px'}} alt='twitter' />
-                            <a target="_blank" href={'https://twitter.com/' + section.slice(1)}>{section}</a>
+                            <a target="_blank" href={'https://twitter.com/' + section.slice(1)} rel="noreferrer">{section}</a>
                         </div>
                         
                     } else if (section.includes('png')) {
@@ -56,7 +56,15 @@ const WindowPopover = (props) => {
                                 }}
                             />
                         </div>
-                    } else {
+                    } else if (section.includes('icon - ')) {
+                        const sectionName = section.slice(7);
+
+                        return <div className='container__body-icons__icon' onClick={() => onIconClick(sectionName)}>
+                            <img src={require(`../../static/${sectionName}.png`)} alt={sectionName} />
+                            <div className='container__body-icons__icon-text'>{sectionName}</div>
+                        </div>
+                    }
+                    else {
                         return <p>{section}</p>
                     }
                 })

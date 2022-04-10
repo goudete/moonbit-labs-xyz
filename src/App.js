@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
 import original from "react95/dist/themes/original";
 import Window from './components/window/window';
+import WindowLegal from './components/windowLegal/windowLegal';
 import NavBar from './components/navbar/navbar';
 
 import { iconMetadata } from './config';
@@ -11,12 +12,22 @@ import './App.scss';
 
 const App = () => {
     const [activeIcon, setActiveIcon] = useState({});
+    const [activeIconLegal, setActiveIconLegal] = useState({});
 
     const onIconClick = (icon) => {
-        if (icon === {}) activeIcon({})
+        if (icon === {}) setActiveIcon({});
 
         const selectedIcon = iconMetadata.find((element) => element.title === icon);
-        setActiveIcon(selectedIcon)
+        setActiveIcon(selectedIcon);
+
+        return;
+    }
+
+    const onIconLegalClick = (icon) => {
+        if (icon === {}) setActiveIconLegal({});
+
+        const selectedIcon = iconMetadata.find((element) => element.title === icon);
+        setActiveIconLegal(selectedIcon);
 
         return;
     }
@@ -53,16 +64,23 @@ const App = () => {
                             <img src={require('./static/contact.png')} style={{ height: '60px', width: '65px'}} alt='planet' />
                             <div className='container__body-icons__icon-text'>Contact Us</div>
                         </div>
-                        <div className='container__body-icons__icon' onClick={() => onIconClick('Terms and Conditions')}>
+                        <div className='container__body-icons__icon' onClick={() => onIconClick('Legal')}>
                             <img src={require('./static/legal.png')} alt='planet' />
                             <div className='container__body-icons__icon-text'>Legal</div>
                         </div>
                     </div>
                     {
-                        activeIcon?.title && 
+                        activeIcon?.title &&
                             <Window 
                                 activeIcon={activeIcon}
                                 onIconClick={onIconClick}
+                            />
+                    }
+                    {
+                        activeIconLegal?.title &&
+                            <WindowLegal
+                                activeIconLegal={activeIconLegal}
+                                onIconLegalClick={onIconLegalClick}
                             />
                     }
                 </div>

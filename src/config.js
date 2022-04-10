@@ -59,6 +59,13 @@ const iconMetadata = [
         ]
     },
     {
+        title: 'Legal',
+        body: [
+            "icon - Terms and Conditions",
+            "icon - Privacy Notice"
+        ]
+    },
+    {
         title: 'Terms and Conditions',
         body: [
             "TERMS AND CONDITIONS OF USE",
@@ -108,6 +115,12 @@ const iconMetadata = [
             "15.3. Notices. Any notices or other communications provided by Moonbit Labs under these Terms will be given by posting to the Site.",
             "15.4. Waiver of Rights. Moonbit Labs' failure to enforce any right or provision of these Terms will not be considered a waiver of such right or provision. The waiver of any such right or provision will be effective only if in writing consent and signed by a duly authorized representative of Moonbit Labs. Except as expressly set forth in these Terms, the exercise by you or Moonbit Labs of any of its remedies under these Terms will be without prejudice to its other remedies under these Terms or otherwise.",
             "Section 16. Contact Information. If you have any questions about these Terms or Site, please contact Moonbit Labs at hello@moonbitlabs.xyz."
+        ]
+    },
+    {
+        title: 'Privacy Notice',
+        body: [
+            "Your data is being harvested. lol."
         ]
     }
 ];
