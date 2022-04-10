@@ -39,16 +39,16 @@ const WindowPopover = (props) => {
         <WindowContent>
             {
                 activeIcon?.body.map((section) => {
-                    if (section[0] === '@') {
+                    if (section.type === 'twitter') {
                         return <div>
                              <img src={require('../../static/twitter.png')} style={{ maxWidth: '20px', marginRight: '5px'}} alt='twitter' />
-                            <a target="_blank" href={'https://twitter.com/' + section.slice(1)}>{section}</a>
+                            <a target="_blank" href={'https://twitter.com/' + section.content.slice(1)} rel="noreferrer">{section.content}</a>
                         </div>
                         
-                    } else if (section.includes('png')) {
+                    } else if (section.type === 'png') {
                         return <div style={{textAlign: 'center'}}>
                             <img
-                                src={require(`../../static/${section}`)}
+                                src={require(`../../static/${section.content}`)}
                                 alt='img'
                                 style={{
                                     width: '30em',
@@ -56,8 +56,18 @@ const WindowPopover = (props) => {
                                 }}
                             />
                         </div>
-                    } else {
-                        return <p>{section}</p>
+                    } else if (section.type === 'icon') {
+                        return <div className='container__body-icons__icon' onClick={() => onIconClick(section.content)}>
+                            <img src={require(`../../static/${section.content}.png`)} alt={section.content} />
+                            <div className='container__body-icons__icon-text'>{section.content}</div>
+                        </div>
+                    } else if (section.type === 'copyright') {
+                        return <div style={{textAlign: 'center'}}>
+                            <p>{section.content}</p>
+                        </div>
+                    }
+                    else {
+                        return <p>{section.content}</p>
                     }
                 })
             }
