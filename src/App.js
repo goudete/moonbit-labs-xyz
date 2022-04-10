@@ -6,7 +6,7 @@ import Window from './components/window/window';
 import WindowLegal from './components/windowLegal/windowLegal';
 import NavBar from './components/navbar/navbar';
 
-import { iconMetadata } from './config';
+import { iconMetadata } from './metadata';
 
 import './App.scss';
 
