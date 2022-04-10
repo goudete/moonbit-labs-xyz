@@ -164,10 +164,6 @@ const iconMetadata = [
         body: [
             {
                 type: 'text',
-                content: "TERMS AND CONDITIONS OF USE"
-            },
-            {
-                type: 'text',
                 content: "Last update: April 2022"
             },
             {
