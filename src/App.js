@@ -41,7 +41,7 @@ const App = () => {
                 <div className='container__body'>
                     <div className='container__body-icons'>
                         <div className='container__body-icons__icon' onClick={() => onIconClick('Logo')}>
-                            <img src={require('./static/buzz.gif')} alt='planet' />
+                            <img src={require('./static/logoDisk.png')} alt='planet' />
                             <div className='container__body-icons__icon-text'>Logo</div>
                         </div>
                         <div className='container__body-icons__icon' onClick={() => onIconClick('About')}>

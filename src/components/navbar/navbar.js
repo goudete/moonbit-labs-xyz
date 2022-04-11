@@ -21,9 +21,9 @@ const NavBar = () => {
             onClick={() => onButtonClick()}
             >
             <img
-                src={require('../../static/logoDisk.png')}
+                src={require('../../static/logo60x60.png')}
                 alt='react95 logo'
-                style={{ height: '20px', marginRight: 4 }}
+                style={{ height: '30px', marginRight: 4 }}
             />
             Moonbit Labs
             </Button>
