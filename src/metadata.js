@@ -108,7 +108,11 @@ const iconMetadata = [
             },
             {
                 type: 'text',
-                content: "Interested? Chat with us at hello@moonbitlabs.xyz"
+                content: "Interested? Chat with us at:"
+            },
+            {
+                type: 'email',
+                content: "hello@moonbitlabs.xyz"
             }
         ]
     },
@@ -128,7 +132,7 @@ const iconMetadata = [
                 content: "Email"
             },
             {
-                type: 'text',
+                type: 'email',
                 content: "hello@moonbitlabs.xyz"
             }
         ]

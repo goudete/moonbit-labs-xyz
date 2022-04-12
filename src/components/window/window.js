@@ -49,7 +49,13 @@ const WindowPopover = (props) => {
                              <img src={require('../../static/twitter.png')} style={{ maxWidth: '20px', marginRight: '5px'}} alt='twitter' />
                             <a target="_blank" href={'https://twitter.com/' + section.content.slice(1)} rel="noreferrer">{section.content}</a>
                         </div>
-                        
+
+                    } else if (section.type === 'email') {
+                        return <div>
+                             <img src={require('../../static/email.png')} style={{ maxWidth: '30px', marginRight: '5px'}} alt='email' />
+                             <a>{section.content}</a>
+                        </div>
+
                     } else if (section.type === 'png') {
                         return <div style={{textAlign: 'center'}}>
                             <img
@@ -61,15 +67,18 @@ const WindowPopover = (props) => {
                                 }}
                             />
                         </div>
+
                     } else if (section.type === 'icon') {
-                        return <div className='container__body-icons__icon' style={{ textAlign: 'center'}} onClick={() => onIconClick(section.content)}>
+                        return <div className='container__body-icons__icon' style={{ textAlign: 'center' }} onClick={() => onIconClick(section.content)}>
                             <img src={require(`../../static/${section.content}.png`)} alt={section.content} />
                             <div className='container__body-icons__icon-text'>{section.content}</div>
                         </div>
+
                     } else if (section.type === 'copyright') {
                         return <div style={{textAlign: 'center'}}>
                             <p>{section.content}</p>
                         </div>
+
                     }
                     else {
                         return <p>{section.content}</p>
