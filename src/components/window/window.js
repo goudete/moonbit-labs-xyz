@@ -62,7 +62,7 @@ const WindowPopover = (props) => {
                             />
                         </div>
                     } else if (section.type === 'icon') {
-                        return <div className='container__body-icons__icon' onClick={() => onIconClick(section.content)}>
+                        return <div className='container__body-icons__icon' style={{ textAlign: 'center'}} onClick={() => onIconClick(section.content)}>
                             <img src={require(`../../static/${section.content}.png`)} alt={section.content} />
                             <div className='container__body-icons__icon-text'>{section.content}</div>
                         </div>
